@@ -1,6 +1,6 @@
 {
   "name": "train-repo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/wcastand/train-repo.git",
   "author": "William Castandet <wcastand@gmail.com>",
