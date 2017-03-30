@@ -1,0 +1,26 @@
+{
+  "name": "train-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wcastand/train-repo.git",
+  "author": "William Castandet <wcastand@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:dev": "jest --watch",
+    "build": "babel src -d build",
+    "build:dev": "babel -w src -d build",
+    "release": "release"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.2.2",
+    "jest": "^19.0.2",
+    "release": "^1.1.7"
+  }
+}
