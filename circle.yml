@@ -1,4 +1,6 @@
 dependencies:
+  override:
+    - npm install
   pre:
     - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
 deployment:
@@ -6,3 +8,6 @@ deployment:
     tag: /v[0-9]+(\.[0-9]+)*/
         commands:
       - npm publish
+machine:
+  node:
+    version: 7.8.0
